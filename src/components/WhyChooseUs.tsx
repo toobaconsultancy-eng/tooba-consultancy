@@ -9,10 +9,10 @@ import {
   Building2,
   CheckCircle2,
 } from "lucide-react";
+import deedsImg from "../assets/images/pakistan_sindh_property_deeds_1791529767905.jpg";
 
 export const WhyChooseUs: React.FC = () => {
   const [imgLoaded, setImgLoaded] = useState(false);
-  const deedsImg = "/src/assets/images/pakistan_sindh_property_deeds_1791529767905.jpg";
 
   const commitments = [
     {

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { ShieldCheck, MapPin, Mail, MessageSquare } from "lucide-react";
 import { BUSINESS_CONFIG, getWhatsAppUrl, getMailtoUrl } from "../config/siteConfig";
+import meetingImg from "../assets/images/consultation_advisory_meeting_1791523731891.jpg";
 
 export const AboutSection: React.FC = () => {
   const [imgLoaded, setImgLoaded] = useState(false);
-  const meetingImg = "/src/assets/images/consultation_advisory_meeting_1791523731891.jpg";
 
   const whatsappUrl = getWhatsAppUrl(
     "Hello Tooba Consultancy, I would like to learn more about your property consultancy services in Karachi."

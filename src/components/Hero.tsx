@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MessageSquare, Mail, ShieldCheck, ArrowRight, FileText, Calculator, Building, Landmark } from "lucide-react";
 import { BUSINESS_CONFIG, getWhatsAppUrl, getMailtoUrl } from "../config/siteConfig";
+import heroImgSrc from "../assets/images/hero_property_consultancy_1791523699827.jpg";
 
 interface HeroProps {
   onNavigateToCalculator: () => void;
@@ -9,7 +10,6 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onNavigateToCalculator, onNavigateToServices }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
-  const heroImgSrc = "/src/assets/images/hero_property_consultancy_1791523699827.jpg";
 
   const defaultHeroWhatsappUrl = getWhatsAppUrl(
     "Hello Tooba Consultancy, I would like to consult with you regarding property documentation and transfer procedures in Karachi."
