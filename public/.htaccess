@@ -19,9 +19,6 @@ DirectoryIndex index.html
   # If the requested path corresponds to an existing directory, serve it directly
   RewriteCond %{REQUEST_FILENAME} !-d
 
-  # If the requested path is a symbolic link, serve it directly
-  RewriteCond %{REQUEST_FILENAME} !-l
-
   # Route all other requests (including sub-routes) to index.html for client-side handling
   RewriteRule . /index.html [L]
 </IfModule>
