@@ -1,0 +1,6 @@
+{
+  "name": "Tooba Consultancy",
+  "description": "Professional property consultation, legal deeds, DHA and Cantonment lease matters, NADRA succession documentation, tax returns, and transfer assistance across Karachi and all Sindh Province.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
