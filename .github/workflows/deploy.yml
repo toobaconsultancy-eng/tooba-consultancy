@@ -30,7 +30,7 @@ jobs:
         with:
           server: 46.202.156.254
           username: u516908876
-          password: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ secrets.FTP_PASSWORD || 'Qazi@8900' }}
           local-dir: ./dist/
           server-dir: ./public_html/
           dangerous-clean-slate: false
